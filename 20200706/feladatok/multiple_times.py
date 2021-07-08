@@ -17,3 +17,20 @@
 # Example 3:
 # Input: nums = [1,1,1,3,3,4,3,2,4,2]
 # Output: true
+
+
+nums = [1, 2, 3, 4]
+
+
+def multiple_times(nums):
+    for i in nums:
+        if nums.count(nums[i]) >= 2:
+            print('true')
+            return
+        elif nums.count(nums[i]) < 2:
+            print('false')
+            i += 1
+        return
+
+
+multiple_times(nums)

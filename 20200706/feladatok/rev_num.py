@@ -3,3 +3,11 @@
 # Example:
 # input = 123456
 # print out : [6, 5, 4, 3, 2, 1]
+
+
+def rev_num():
+    num = input('Adj meg egy többjegyű számot: ')
+    num_list = list(num)
+    print('A fordított sorrend: '+ str(num_list[::-1]))
+
+rev_num()
