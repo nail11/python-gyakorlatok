@@ -8,6 +8,6 @@
 def rev_num():
     num = input('Adj meg egy többjegyű számot: ')
     num_list = list(num)
-    print('A fordított sorrend: '+ str(num_list[::-1]))
+    print('A fordított lista: '+ str(num_list[::-1]))
 
 rev_num()
