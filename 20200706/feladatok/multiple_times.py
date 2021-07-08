@@ -18,19 +18,20 @@
 # Input: nums = [1,1,1,3,3,4,3,2,4,2]
 # Output: true
 
-
-nums = [1, 2, 3, 4]
-
+nums1 = [1,2,3,1]
+nums2 = [1, 2, 3, 4]
+nums3 = [3,1,1,3,3,4,3,2,4,2]
+nums4 = [1,1,1,3,3,4,3,2,4,2]
 
 def multiple_times(nums):
     for i in nums:
-        if nums.count(nums[i]) >= 2:
+        if nums.count(i) >= 2:
             print('true')
             return
-        elif nums.count(nums[i]) < 2:
+        elif nums.count(i) < 2:
             print('false')
-            i += 1
+           #  i += 1
         return
 
 
-multiple_times(nums)
+multiple_times(nums4)
