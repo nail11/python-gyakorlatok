@@ -16,25 +16,22 @@
 #
 # Input: haystack = "aaaaa", needle = "bba"
 # Output: -1
-haystack = 'abcdefghijklmnop'
-needle = 'fghij'
+
+haystack1 = 'abcdeaafghijklfghij'
+needle1 = 'mno'
 
 def needle_in_haystack(haystack, needle):
-    index = 0
-    index_n = 0
-    letter = ''
-    letter_ = ''
-    print(needle[0])
-
-    for i_n, n in enumerate(needle):
-        index_n = i_n
-        letter_n = n
-
-        for i_h, h in enumerate(haystack):
-            index = i_h
-            letter = h
-            if letter == n:
 
 
+    if haystack.count(needle) > 0:
 
-needle_in_haystack(haystack, needle)
+            for i, l in enumerate(haystack):
+                if l == needle[0]:
+                    print(i)
+                    break
+    else:
+            print(-1)
+
+# a függvény meghívása
+
+needle_in_haystack(haystack1, needle1)
