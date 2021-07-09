@@ -26,28 +26,28 @@ finalList = oddList + evenList
 print(finalList)
 
 # Erika
-istOne = [3, 6, 9, 12, 15, 18, 21]
-listTwo = [4, 8, 12, 16, 20, 24, 28]
-eredmeny = []  # azért, mert kell egy harmadik lista a feladat szerint
-for i, v in enumerate(listOne):
-    if i % 2 != 0:
-        #print(i, v) Ellenőrzésre jó
-        eredmeny.append(v)
-print(eredmeny)   # részeredmény ellenőrzés
-j = len(eredmeny)  # a kapott eredményt eltároljuk egy változóba
-for i, v in enumerate(listTwo):
-    if i % 2 == 0:
-        #print(i, v)
-        eredmeny.append(v)
-print(eredmeny[j:])  # itt meghívjuk az első listáből készített új listát
-print(eredmeny)  # kiírja a végeredményt
+# istOne = [3, 6, 9, 12, 15, 18, 21]
+# listTwo = [4, 8, 12, 16, 20, 24, 28]
+# eredmeny = []  # azért, mert kell egy harmadik lista a feladat szerint
+# for i, v in enumerate(listOne):
+#     if i % 2 != 0:
+#         #print(i, v) Ellenőrzésre jó
+#         eredmeny.append(v)
+# print(eredmeny)   # részeredmény ellenőrzés
+# j = len(eredmeny)  # a kapott eredményt eltároljuk egy változóba
+# for i, v in enumerate(listTwo):
+#     if i % 2 == 0:
+#         #print(i, v)
+#         eredmeny.append(v)
+# print(eredmeny[j:])  # itt meghívjuk az első listáből készített új listát
+# print(eredmeny)  # kiírja a végeredményt
 
 
 # ez mástól
 
 # ez nem megy és csak indexxel sem
 
-listOne = [3, 6, 9, 12, 15, 18, 21]
+# listOne = [3, 6, 9, 12, 15, 18, 21]
 # listTwo = [4, 8, 12, 16, 20, 24, 28]
 # mixed_list = []
 # for i, v in enumerate(listOne):

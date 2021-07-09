@@ -31,6 +31,6 @@ for j in range(5):
 # x = [5, 4, 3, 2, 1]
 # y = []
 # for j in range(5):
-#         y.append(x[j:])
-#         for i in y:
-#             print(*i)
+#          y.append(x[j:])
+#          for i in y:
+#              print(*i)
