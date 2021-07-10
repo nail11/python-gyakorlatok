@@ -18,7 +18,7 @@
 # Output: -1
 
 haystack1 = 'abcdeaafghijklfghij'
-needle1 = 'eaa'
+needle1 = 'fghj'
 
 # ez működik
 
@@ -36,16 +36,25 @@ needle1 = 'eaa'
 
 # próbáljunk meg mást - in operátor - ez is működik
 
+# def needle_in_haystack(haystack, needle):
+#
+#      if needle in haystack:
+#
+#           for i, l in enumerate(haystack):
+#                if l == needle[0]:
+#                     print(i)
+#                     break
+#      else:
+#                print(-1)
+
+
+# van jobb megoldás - ez a legjobb
+
 def needle_in_haystack(haystack, needle):
 
-     if needle in haystack:
+     print(haystack.find(needle))
 
-          for i, l in enumerate(haystack):
-               if l == needle[0]:
-                    print(i)
-                    break
-     else:
-               print(-1)
+
 
 
 # a függvény meghívása
